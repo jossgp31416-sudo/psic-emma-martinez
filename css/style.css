@@ -190,7 +190,6 @@ header {
 /* ===== POST INDIVIDUAL ===== */
 .post { max-width: 800px; margin: 3rem auto; }
 .post h1 { font-size: 2.4rem; margin-top: 2rem; }
-.post-fecha { color: var(--color-texto-claro); margin-bottom: 2rem; }
 .post-volver { margin-top: 3rem; }
 
 /* ===== FOOTER ===== */
