@@ -116,6 +116,7 @@ header {
 .hamburger.activo span:nth-child(2) { opacity: 0; }
 .hamburger.activo span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
 .menu-list {
+  list-style:none;
   display: none;
   flex-direction: column;
   width: 100%;
