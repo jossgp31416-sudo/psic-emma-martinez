@@ -153,27 +153,46 @@ header {
 @media (min-width: 600px) { .servicios-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 900px) { .servicios-grid { grid-template-columns: repeat(3, 1fr); } }
 
-/* ===== TESTIMONIOS SLIDER ===== */
-.testimonios-slider {
+/* ===== TESTIMONIOS CARRUSEL (CSS puro) ===== */
+.testimonios-carrusel {
+  position: relative;
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  gap: 1rem;
-  padding-bottom: 1rem;
-  margin: 2rem 0;
-  scroll-behavior: smooth;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  overflow: hidden;
 }
-.testimonio {
-  flex: 0 0 85%;
-  scroll-snap-align: start;
+
+.testimonio-item {
+  position: absolute;
+  width: 100%;
+  max-width: 650px;
   background: var(--color-blanco);
   border-radius: var(--radio-borde);
-  padding: 1.5rem;
+  padding: 1.8rem;
   box-shadow: var(--sombra-suave);
   font-style: italic;
+  text-align: center;
+  opacity: 0;
+  filter: blur(4px);
+  transform: scale(0.9);
+  animation: rotarTestimonios 60s infinite;
+  pointer-events: none;
 }
-@media (min-width: 600px) { .testimonio { flex: 0 0 45%; } }
-@media (min-width: 900px) { .testimonio { flex: 0 0 30%; } }
+
+/* 6 testimonios × 10 segundos = 60 segundos de ciclo */
+@keyframes rotarTestimonios {
+  0%, 13% { opacity: 1; filter: blur(0); transform: scale(1); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+  17%, 96% { opacity: 0; filter: blur(4px); transform: scale(0.9); box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  100% { opacity: 1; filter: blur(0); transform: scale(1); box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+}
+
+.testimonio-item:nth-child(1) { animation-delay: 0s; }
+.testimonio-item:nth-child(2) { animation-delay: 10s; }
+.testimonio-item:nth-child(3) { animation-delay: 20s; }
+.testimonio-item:nth-child(4) { animation-delay: 30s; }
+.testimonio-item:nth-child(5) { animation-delay: 40s; }
+.testimonio-item:nth-child(6) { animation-delay: 50s; }
 
 /* ===== BLOG LISTADO ===== */
 .blog-listado { display: grid; gap: 1.5rem; margin: 2rem 0; }
