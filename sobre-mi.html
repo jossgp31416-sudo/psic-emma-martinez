@@ -10,79 +10,103 @@
 <body>
   <header>
     <div class="contenedor header-grid">
-      <a href="index.html" class="logo">Psic. Emma Martínez</a>
+      <a href="index.html" class="logo">
+        <span class="logo-titulo">Psic. Emma Martínez</span>
+        <span class="logo-subtitulo">Psicóloga con enfoque psicoeducativo</span>
+      </a>
       <nav id="menu" class="menu">
         <button id="hamburger" class="hamburger" aria-label="Abrir menú">
           <span></span><span></span><span></span>
         </button>
         <ul id="menu-list" class="menu-list">
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li class="activo-nav"><a href="sobre-mi.html">Sobre mí</a></li>
           <li><a href="servicios.html">Servicios</a></li>
           <li><a href="blog/blog.html">Blog</a></li>
           <li><a href="contacto.html">Contacto</a></li>
           <li><a href="faq.html">Preguntas frecuentes</a></li>
+          <li class="nav-cta"><a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" rel="noopener">Agendar cita</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="contenedor" style="padding: 4rem 0; max-width: 800px; margin: 0 auto;">
-      <h1>Psic. Emma Martínez</h1>
-      <h2 style="color: var(--color-texto-claro); font-weight: normal;">Psicóloga con enfoque psicoeducativo y perspectiva de género</h2>
+    <section class="seccion">
+      <div class="contenedor-texto">
+        <h1 class="seccion-titulo">Psic. Emma Martínez</h1>
+        <p class="lead text-center" style="margin-bottom: var(--sp-6);">Psicóloga con enfoque psicoeducativo y perspectiva de género</p>
 
-      <h3>¿A quién acompaño?</h3>
-      <p>Acompaño a niñas, niños, adolescentes, mujeres y familias en el fortalecimiento de habilidades emocionales, regulación conductual y desarrollo de recursos personales.</p>
+        <h3>¿A quién acompaño?</h3>
+        <p>Acompaño a niñas, niños, adolescentes, mujeres y familias en el fortalecimiento de habilidades emocionales, regulación conductual y desarrollo de recursos personales.</p>
 
-      <h3>¿Cuál es mi formación?</h3>
-      <p>Licenciada en Psicología Educativa por la Universidad Pedagógica Nacional (UPN).</p>
-      <p><strong>Formación en:</strong></p>
-      <ul style="list-style: disc; margin-left: 1.5rem;">
-        <li>Terapia Cognitivo Conductual</li>
-        <li>Musicoterapia</li>
-        <li>Derechos Humanos con perspectiva de género</li>
-      </ul>
-      <p><strong>Formación complementaria en:</strong></p>
-      <ul style="list-style: disc; margin-left: 1.5rem;">
-        <li>Desarrollo infantil y terapia de juego</li>
-        <li>Psicodiagnóstico infantil</li>
-        <li>Crianza positiva</li>
-        <li>Prevención de violencias contra las mujeres</li>
-        <li>Salud mental, prevención del suicidio y atención en crisis</li>
-      </ul>
+        <h3>¿Cuál es mi formación?</h3>
+        <p>Licenciada en Psicología Educativa por la Universidad Pedagógica Nacional (UPN).</p>
+        <p><strong>Formación en:</strong></p>
+        <ul style="list-style: disc; margin-left: var(--sp-6);">
+          <li>Terapia Cognitivo Conductual</li>
+          <li>Musicoterapia</li>
+          <li>Derechos Humanos con perspectiva de género</li>
+        </ul>
+        <p><strong>Formación complementaria en:</strong></p>
+        <ul style="list-style: disc; margin-left: var(--sp-6);">
+          <li>Desarrollo infantil y terapia de juego</li>
+          <li>Psicodiagnóstico infantil</li>
+          <li>Crianza positiva</li>
+          <li>Prevención de violencias contra las mujeres</li>
+          <li>Salud mental, prevención del suicidio y atención en crisis</li>
+        </ul>
 
-      <h3>¿Qué puedes encontrar en mi espacio?</h3>
-      <p>Brindo un espacio seguro de orientación y acompañamiento, preventivo, ético y respetuoso, orientado al fortalecimiento del bienestar personal, emocional, escolar y familiar.</p>
+        <h3>¿Qué puedes encontrar en mi espacio?</h3>
+        <p>Brindo un espacio seguro de orientación y acompañamiento, preventivo, ético y respetuoso, orientado al fortalecimiento del bienestar personal, emocional, escolar y familiar.</p>
 
-      <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
-         class="boton boton-primario"
-         style="margin-top: 2rem; display: inline-flex; align-items: center; gap: 0.5rem;">
-        💬 Agendar por WhatsApp
-      </a>
+        <div class="text-center" style="margin-top: var(--sp-12);">
+          <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
+             class="boton boton-primario boton-lg"
+             target="_blank"
+             rel="noopener">
+            💬 Agendar por WhatsApp
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="contenedor footer-grid">
-      <div>
-        <p>&copy; 2026 Psic. Emma Martínez</p>
-        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 Ciudad de México, CDMX</p>
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">Psic. Emma Martínez</p>
+          <p class="footer-descripcion">Psicóloga con enfoque psicoeducativo y perspectiva de género.</p>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Servicios</p>
+          <ul class="footer-lista">
+            <li><a href="servicios.html">Regulación emocional</a></li>
+            <li><a href="servicios.html">Autoestima</a></li>
+            <li><a href="servicios.html">Aprendizaje</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Contacto</p>
+          <ul class="footer-lista">
+            <li><a href="https://wa.me/5215561783940">WhatsApp</a></li>
+            <li><a href="tel:5561783940">55 6178 3940</a></li>
+            <li><a href="https://www.instagram.com/psicologa.emma">Instagram</a></li>
+            <li><a href="https://www.facebook.com/psic.edu.emma">Facebook</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>
-          <a href="tel:5561783940">📞 55 6178 3940</a> |
-          <a href="https://wa.me/5215561783940">WhatsApp</a>
-        </p>
-        <p>
-          <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener">Instagram</a> |
-          <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener">Facebook</a>
-        </p>
+      <div class="footer-divider"></div>
+      <div class="footer-base">
+        <p>© 2026 Psic. Emma Martínez — Todos los derechos reservados</p>
+        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 CDMX</p>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
+  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
      class="whatsapp-flotante"
      target="_blank"
      rel="noopener"

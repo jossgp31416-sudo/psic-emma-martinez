@@ -10,7 +10,10 @@
 <body>
   <header>
     <div class="contenedor header-grid">
-      <a href="../index.html" class="logo">Psic. Emma Martínez</a>
+      <a href="../index.html" class="logo">
+        <span class="logo-titulo">Psic. Emma Martínez</span>
+        <span class="logo-subtitulo">Psicóloga con enfoque psicoeducativo</span>
+      </a>
       <nav id="menu" class="menu">
         <button id="hamburger" class="hamburger" aria-label="Abrir menú">
           <span></span><span></span><span></span>
@@ -28,53 +31,99 @@
   </header>
 
   <main>
-    <section class="contenedor" style="padding: 4rem 0;">
-      <h1>Blog</h1>
-      <p>Artículos sobre regulación emocional, aprendizaje y bienestar.</p>
-
-      <div class="blog-listado">
-        <div class="post-card">
-          <h3><a href="estres-ansiedad-adolescentes-guia-padres.html">Estrés y ansiedad en adolescentes: una guía para padres</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="que-es-terapia-cognitivo-conductual.html">¿Qué es la terapia cognitivo conductual y para qué sirve?</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="senales-hijo-apoyo-emocional.html">Señales de que tu hijo podría necesitar apoyo emocional</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="como-es-una-primera-sesion.html">¿Cómo es una primera sesión con una psicóloga?</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="terapia-presencial-vs-en-linea.html">Terapia presencial vs en línea: ¿cuál me conviene?</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="cuando-ir-al-psicologo.html">¿Cuándo sé que necesito ir al psicólogo?</a></h3>
+    <section class="seccion">
+      <div class="contenedor">
+        <h1 class="seccion-titulo">Blog</h1>
+        <p class="seccion-subtitulo">Artículos sobre regulación emocional, aprendizaje y bienestar.</p>
+        <div class="blog-listado">
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Adolescentes</span>
+              <h3><a href="estres-ansiedad-adolescentes-guia-padres.html">Estrés y ansiedad en adolescentes: una guía para padres</a></h3>
+              <p>Identifica señales de alerta y apoya a tu hijo desde casa con estrategias prácticas.</p>
+              <span class="post-card-meta">5 jun 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Terapia</span>
+              <h3><a href="que-es-terapia-cognitivo-conductual.html">¿Qué es la terapia cognitivo conductual y para qué sirve?</a></h3>
+              <p>Una introducción a uno de los enfoques con más evidencia científica.</p>
+              <span class="post-card-meta">29 may 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Infancia</span>
+              <h3><a href="senales-hijo-apoyo-emocional.html">Señales de que tu hijo podría necesitar apoyo emocional</a></h3>
+              <p>Cambios en la conducta que podrían indicar la necesidad de acompañamiento.</p>
+              <span class="post-card-meta">22 may 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Primera sesión</span>
+              <h3><a href="como-es-una-primera-sesion.html">¿Cómo es una primera sesión con una psicóloga?</a></h3>
+              <p>Te explico paso a paso lo que ocurre para que llegues con tranquilidad.</p>
+              <span class="post-card-meta">15 may 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Modalidades</span>
+              <h3><a href="terapia-presencial-vs-en-linea.html">Terapia presencial vs en línea: ¿cuál me conviene?</a></h3>
+              <p>Ventajas de cada modalidad para que elijas la que mejor se adapta a ti.</p>
+              <span class="post-card-meta">8 may 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Bienestar</span>
+              <h3><a href="cuando-ir-al-psicologo.html">¿Cuándo sé que necesito ir al psicólogo?</a></h3>
+              <p>Señales que indican que podrías beneficiarte de acompañamiento profesional.</p>
+              <span class="post-card-meta">1 may 2026</span>
+            </div>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="contenedor footer-grid">
-      <div>
-        <p>&copy; 2026 Psic. Emma Martínez</p>
-        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 Ciudad de México, CDMX</p>
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">Psic. Emma Martínez</p>
+          <p class="footer-descripcion">Psicóloga con enfoque psicoeducativo y perspectiva de género.</p>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Servicios</p>
+          <ul class="footer-lista">
+            <li><a href="../servicios.html">Regulación emocional</a></li>
+            <li><a href="../servicios.html">Autoestima</a></li>
+            <li><a href="../servicios.html">Aprendizaje</a></li>
+            <li><a href="../faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Contacto</p>
+          <ul class="footer-lista">
+            <li><a href="https://wa.me/5215561783940">WhatsApp</a></li>
+            <li><a href="tel:5561783940">55 6178 3940</a></li>
+            <li><a href="https://www.instagram.com/psicologa.emma">Instagram</a></li>
+            <li><a href="https://www.facebook.com/psic.edu.emma">Facebook</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>
-          <a href="tel:5561783940">📞 55 6178 3940</a> |
-          <a href="https://wa.me/5215561783940">WhatsApp</a>
-        </p>
-        <p>
-          <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener">Instagram</a> |
-          <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener">Facebook</a>
-        </p>
+      <div class="footer-divider"></div>
+      <div class="footer-base">
+        <p>© 2026 Psic. Emma Martínez — Todos los derechos reservados</p>
+        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 CDMX</p>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
+  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
      class="whatsapp-flotante"
      target="_blank"
      rel="noopener"

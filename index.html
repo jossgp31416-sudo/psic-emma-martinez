@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Psic. Emma Martínez - Psicóloga con enfoque psicoeducativo y perspectiva de género. Atención a niñas, niños, adolescentes, mujeres y familias en Tláhuac, CDMX.">
+  <meta name="description" content="Psic. Emma Martínez — Psicóloga con enfoque psicoeducativo y perspectiva de género. Atención presencial en Tláhuac, CDMX y en línea para todo México.">
   <title>Inicio | Psic. Emma Martínez</title>
   <link rel="stylesheet" href="css/style.css">
   <script type="application/ld+json">
@@ -32,129 +32,195 @@
 <body>
   <header>
     <div class="contenedor header-grid">
-      <a href="index.html" class="logo">Psic. Emma Martínez</a>
+      <a href="index.html" class="logo">
+        <span class="logo-titulo">Psic. Emma Martínez</span>
+        <span class="logo-subtitulo">Psicóloga con enfoque psicoeducativo</span>
+      </a>
       <nav id="menu" class="menu">
         <button id="hamburger" class="hamburger" aria-label="Abrir menú">
           <span></span><span></span><span></span>
         </button>
         <ul id="menu-list" class="menu-list">
-          <li><a href="index.html">Inicio</a></li>
+          <li class="activo-nav"><a href="index.html">Inicio</a></li>
           <li><a href="sobre-mi.html">Sobre mí</a></li>
           <li><a href="servicios.html">Servicios</a></li>
           <li><a href="blog/blog.html">Blog</a></li>
           <li><a href="contacto.html">Contacto</a></li>
           <li><a href="faq.html">Preguntas frecuentes</a></li>
+          <li class="nav-cta"><a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" rel="noopener">Agendar cita</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
+    <!-- HERO -->
     <section class="hero">
+      <div class="hero-contenido contenedor">
+        <p class="hero-eyebrow">Enfoque psicoeducativo · Perspectiva de género</p>
+        <h1>Comprender lo que te pasa es el inicio;<br><span class="hero-nombre">aprender a manejarlo es el proceso.</span></h1>
+        <p class="lead">Psicóloga en Tláhuac, CDMX — Sesiones presenciales y en línea</p>
+        <div class="hero-acciones">
+          <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
+             class="boton boton-lg boton-primario"
+             target="_blank"
+             rel="noopener">
+            💬 Quiero más información
+          </a>
+          <a href="servicios.html" class="boton boton-lg boton-fantasma">Mis servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="seccion">
       <div class="contenedor">
-        <h1>Comprender lo que te pasa es el inicio; aprender a manejarlo es el proceso.</h1>
-        <p>Psicóloga con enfoque psicoeducativo y perspectiva de género</p>
-        <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
-           class="boton boton-primario"
-           target="_blank"
-           rel="noopener">
-          💬 Agendar cita
+        <h2 class="seccion-titulo">¿En qué puedo acompañarte?</h2>
+        <div class="servicios-grid">
+          <div class="servicio-card">
+            <div class="servicio-icono">🧠</div>
+            <h3>Regulación y manejo emocional</h3>
+            <p>Aprende a gestionar el estrés y las emociones difíciles con herramientas de Terapia Cognitivo Conductual.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">🛡️</div>
+            <h3>Estrategias de afrontamiento</h3>
+            <p>Desarrolla recursos personales para enfrentar los desafíos cotidianos con mayor seguridad y equilibrio.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">⭐</div>
+            <h3>Toma de decisiones y autoestima</h3>
+            <p>Fortalece tu confianza y claridad para elegir lo que es mejor para ti, desde un enfoque de derechos humanos y perspectiva de género.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">📚</div>
+            <h3>Dificultades escolares y de aprendizaje</h3>
+            <p>Acompañamiento psicoeducativo para superar barreras en el aprendizaje, con terapia de juego y psicodiagnóstico infantil.</p>
+          </div>
+        </div>
+        <p class="text-center" style="margin-top: var(--sp-8);">
+          <a href="servicios.html" class="boton boton-secundario">Más información</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="seccion seccion-alterna">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Lo que dicen los pacientes</h2>
+        <p class="seccion-subtitulo">Testimonios reales compartidos de forma anónima para proteger la privacidad.</p>
+        <div class="testimonios-wrap">
+          <div class="testimonios-carrusel">
+            <div class="testimonio-item">
+              <blockquote>"Es una psicóloga con una calidad humana muy linda, de carácter que con nosotros los pacientes da la confianza para poder trabajar al cien."</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+            <div class="testimonio-item">
+              <blockquote>"Muy agradecida con la psicóloga Emma que me ha ayudado mucho en mi proceso 🙏 El equipo muy amable atento y profesional 😊"</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+            <div class="testimonio-item">
+              <blockquote>"Estoy muy agradecida por todo su apoyo en mi proceso ✨ su acompañamiento está lleno de profesionalismo y empatía"</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+            <div class="testimonio-item">
+              <blockquote>"He experimentado avances en mi bienestar personal y emocional. Me siento plenamente cómoda y comprendida por la profesional que me acompaña, la psicóloga Emma, lo cual ha favorecido un espacio de confianza y apertura para el desarrollo de mi tratamiento ✨"</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+            <div class="testimonio-item">
+              <blockquote>"Viví el proceso con la Psic. Emma de una manera amorosa, respetuosa y con validación. Siempre con un trato delicado y cuidadoso. Sin duda siempre recomiendo sus servicios 💕"</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+            <div class="testimonio-item">
+              <blockquote>"Me ha ayudado mucho, a mis hijos y a mi familia. Gracias. 😇"</blockquote>
+              <p class="testimonio-autor">Paciente anónimo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA CENTRAL -->
+    <section class="cta-central">
+      <div class="contenedor">
+        <h2>¿Lista(o) para comenzar tu proceso?</h2>
+        <p>Estoy a un mensaje de distancia</p>
+        <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
+           class="boton boton-primario boton-lg">
+          💬 Escríbeme por WhatsApp
         </a>
       </div>
     </section>
 
-    <section class="contenedor" style="padding: 4rem 0;">
-      <h2>¿En qué puedo acompañarte?</h2>
-      <div class="servicios-grid">
-        <div class="tarjeta">
-          <h3>🧠 Regulación y manejo emocional</h3>
-          <p>Aprende a gestionar el estrés y las emociones difíciles con herramientas prácticas basadas en la terapia cognitivo conductual.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>🛡️ Estrategias de afrontamiento</h3>
-          <p>Desarrolla recursos personales para enfrentar los desafíos cotidianos con mayor seguridad y equilibrio.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>⭐ Toma de decisiones y autoestima</h3>
-          <p>Fortalece tu confianza y claridad para elegir lo que es mejor para ti, desde un enfoque de derechos humanos y perspectiva de género.</p>
-        </div>
-        <div class="tarjeta">
-          <h3>📚 Dificultades escolares y de aprendizaje</h3>
-          <p>Acompañamiento psicoeducativo para superar barreras en el aprendizaje, con terapia de juego y psicodiagnóstico infantil.</p>
-        </div>
-      </div>
-      <p style="text-align: center; margin-top: 2rem;">
-        <a href="servicios.html" class="boton boton-secundario">Más información</a>
-      </p>
-    </section>
-
-    <section class="contenedor" style="padding: 0 0 4rem 0;">
-      <h2>Lo que dicen los pacientes</h2>
-      <div class="testimonios-carrusel">
-        <div class="testimonio-item"><p>"Es una psicóloga con una calidad humana muy linda, de carácter que con nosotros los pacientes da la confianza para poder trabajar al cien."</p></div>
-        <div class="testimonio-item"><p>"Muy agradecida con la psicóloga Emma que me ha ayudado mucho en mi proceso 🙏 El equipo muy amable atento y profesional 😊"</p></div>
-        <div class="testimonio-item"><p>"Estoy muy agradecida por todo su apoyo en mi proceso ✨ su acompañamiento está lleno de profesionalismo y empatía"</p></div>
-        <div class="testimonio-item"><p>"He experimentado avances en mi bienestar personal y emocional. Me siento plenamente cómoda y comprendida por la profesional que me acompaña, la psicóloga Emma, lo cual ha favorecido un espacio de confianza y apertura para el desarrollo de mi tratamiento ✨"</p></div>
-        <div class="testimonio-item"><p>"Viví el proceso con la Psic. Emma de una manera amorosa, respetuosa y con validación. Siempre con un trato delicado y cuidadoso. Sin duda siempre recomiendo sus servicios 💕"</p></div>
-        <div class="testimonio-item"><p>"Me ha ayudado mucho, a mis hijos y a mi familia. Gracias. 😇"</p></div>
-      </div>
-    </section>
-
-    <!-- CTA "Conecta conmigo" -->
-    <section class="contenedor" style="padding: 2rem 0; text-align: center;">
-      <h2>¿Lista(o) para comenzar tu proceso?</h2>
-      <p style="margin-bottom: 2rem;">Estoy a un mensaje de distancia</p>
-      <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
-         class="boton boton-primario"
-         style="margin-bottom: 1rem;">
-        💬 Escríbeme por WhatsApp
-      </a>
-      <p>Sígueme en redes:</p>
-      <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 0.5rem;">
-        <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-primario)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-        </a>
-        <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener" aria-label="Facebook">
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--color-primario)"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-        </a>
-      </div>
-    </section>
-
-    <section class="contenedor" style="padding: 0 0 3rem 0;">
-      <div class="blog-listado">
-        <div class="post-card">
-          <h3><a href="blog/estres-ansiedad-adolescentes-guia-padres.html">Estrés y ansiedad en adolescentes: una guía para padres</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="blog/que-es-terapia-cognitivo-conductual.html">¿Qué es la terapia cognitivo conductual y para qué sirve?</a></h3>
-        </div>
-        <div class="post-card">
-          <h3><a href="blog/senales-hijo-apoyo-emocional.html">Señales de que tu hijo podría necesitar apoyo emocional</a></h3>
+    <!-- ÚLTIMOS ARTÍCULOS DEL BLOG -->
+    <section class="seccion">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Últimos artículos del blog</h2>
+        <div class="blog-listado">
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Adolescentes</span>
+              <h3><a href="blog/estres-ansiedad-adolescentes-guia-padres.html">Estrés y ansiedad en adolescentes: una guía para padres</a></h3>
+              <p>Identifica señales de alerta y apoya a tu hijo desde casa con estrategias prácticas.</p>
+              <span class="post-card-meta">5 jun 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Terapia</span>
+              <h3><a href="blog/que-es-terapia-cognitivo-conductual.html">¿Qué es la terapia cognitivo conductual y para qué sirve?</a></h3>
+              <p>Una introducción a uno de los enfoques con más evidencia científica.</p>
+              <span class="post-card-meta">29 may 2026</span>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-card-cuerpo">
+              <span class="post-card-categoria">Infancia</span>
+              <h3><a href="blog/senales-hijo-apoyo-emocional.html">Señales de que tu hijo podría necesitar apoyo emocional</a></h3>
+              <p>Cambios en la conducta que podrían indicar la necesidad de acompañamiento.</p>
+              <span class="post-card-meta">22 may 2026</span>
+            </div>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="contenedor footer-grid">
-      <div>
-        <p>&copy; 2026 Psic. Emma Martínez</p>
-        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 Ciudad de México, CDMX</p>
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">Psic. Emma Martínez</p>
+          <p class="footer-descripcion">Psicóloga con enfoque psicoeducativo y perspectiva de género.</p>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Servicios</p>
+          <ul class="footer-lista">
+            <li><a href="servicios.html">Regulación emocional</a></li>
+            <li><a href="servicios.html">Autoestima</a></li>
+            <li><a href="servicios.html">Aprendizaje</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Contacto</p>
+          <ul class="footer-lista">
+            <li><a href="https://wa.me/5215561783940">WhatsApp</a></li>
+            <li><a href="tel:5561783940">55 6178 3940</a></li>
+            <li><a href="https://www.instagram.com/psicologa.emma">Instagram</a></li>
+            <li><a href="https://www.facebook.com/psic.edu.emma">Facebook</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>
-          <a href="tel:5561783940">📞 55 6178 3940</a> |
-          <a href="https://wa.me/5215561783940">WhatsApp</a>
-        </p>
-        <p>
-          <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener">Instagram</a> |
-          <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener">Facebook</a>
-        </p>
+      <div class="footer-divider"></div>
+      <div class="footer-base">
+        <p>© 2026 Psic. Emma Martínez — Todos los derechos reservados</p>
+        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 CDMX</p>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
+  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
      class="whatsapp-flotante"
      target="_blank"
      rel="noopener"

@@ -10,7 +10,10 @@
 <body>
   <header>
     <div class="contenedor header-grid">
-      <a href="index.html" class="logo">Psic. Emma Martínez</a>
+      <a href="index.html" class="logo">
+        <span class="logo-titulo">Psic. Emma Martínez</span>
+        <span class="logo-subtitulo">Psicóloga con enfoque psicoeducativo</span>
+      </a>
       <nav id="menu" class="menu">
         <button id="hamburger" class="hamburger" aria-label="Abrir menú">
           <span></span><span></span><span></span>
@@ -28,33 +31,50 @@
   </header>
 
   <main>
-    <section class="contenedor" style="padding: 4rem 0; text-align: center;">
-      <h1>Página no encontrada</h1>
-      <p>Lo sentimos, la página que buscas no existe. Puedes volver al inicio o explorar nuestros servicios.</p>
-      <a href="index.html" class="boton boton-primario" style="margin-top: 1rem;">Volver al inicio</a>
+    <section class="seccion">
+      <div class="contenedor text-center" style="padding: var(--sp-16) 0;">
+        <h1>Página no encontrada</h1>
+        <p class="lead" style="margin-bottom: var(--sp-6);">Lo sentimos, la página que buscas no existe. Puedes volver al inicio o explorar nuestros servicios.</p>
+        <a href="index.html" class="boton boton-primario">Volver al inicio</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <div class="contenedor footer-grid">
-      <div>
-        <p>&copy; 2026 Psic. Emma Martínez</p>
-        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 Ciudad de México, CDMX</p>
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">Psic. Emma Martínez</p>
+          <p class="footer-descripcion">Psicóloga con enfoque psicoeducativo y perspectiva de género.</p>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Servicios</p>
+          <ul class="footer-lista">
+            <li><a href="servicios.html">Regulación emocional</a></li>
+            <li><a href="servicios.html">Autoestima</a></li>
+            <li><a href="servicios.html">Aprendizaje</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Contacto</p>
+          <ul class="footer-lista">
+            <li><a href="https://wa.me/5215561783940">WhatsApp</a></li>
+            <li><a href="tel:5561783940">55 6178 3940</a></li>
+            <li><a href="https://www.instagram.com/psicologa.emma">Instagram</a></li>
+            <li><a href="https://www.facebook.com/psic.edu.emma">Facebook</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>
-          <a href="tel:5561783940">📞 55 6178 3940</a> |
-          <a href="https://wa.me/5215561783940">WhatsApp</a>
-        </p>
-        <p>
-          <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener">Instagram</a> |
-          <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener">Facebook</a>
-        </p>
+      <div class="footer-divider"></div>
+      <div class="footer-base">
+        <p>© 2026 Psic. Emma Martínez — Todos los derechos reservados</p>
+        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 CDMX</p>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
+  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
      class="whatsapp-flotante"
      target="_blank"
      rel="noopener"

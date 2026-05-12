@@ -10,7 +10,10 @@
 <body>
   <header>
     <div class="contenedor header-grid">
-      <a href="index.html" class="logo">Psic. Emma Martínez</a>
+      <a href="index.html" class="logo">
+        <span class="logo-titulo">Psic. Emma Martínez</span>
+        <span class="logo-subtitulo">Psicóloga con enfoque psicoeducativo</span>
+      </a>
       <nav id="menu" class="menu">
         <button id="hamburger" class="hamburger" aria-label="Abrir menú">
           <span></span><span></span><span></span>
@@ -18,70 +21,95 @@
         <ul id="menu-list" class="menu-list">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="sobre-mi.html">Sobre mí</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
+          <li class="activo-nav"><a href="servicios.html">Servicios</a></li>
           <li><a href="blog/blog.html">Blog</a></li>
           <li><a href="contacto.html">Contacto</a></li>
           <li><a href="faq.html">Preguntas frecuentes</a></li>
+          <li class="nav-cta"><a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios" target="_blank" rel="noopener">Agendar cita</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="contenedor" style="padding: 4rem 0;">
-      <h1>Servicios</h1>
-      <p style="font-size: 1.2rem;">Acompaño el desarrollo de habilidades emocionales y cognitivas desde un enfoque psicoeducativo. Sesiones para niñas, niños, adolescentes, mujeres y familias.</p>
+    <section class="seccion">
+      <div class="contenedor">
+        <h1 class="seccion-titulo">Servicios</h1>
+        <p class="lead text-center" style="max-width: 600px; margin-left: auto; margin-right: auto; margin-bottom: var(--sp-8);">
+          Acompaño el desarrollo de habilidades emocionales y cognitivas desde un enfoque psicoeducativo. Sesiones para niñas, niños, adolescentes, mujeres y familias.
+        </p>
 
-      <div class="servicios-grid" style="margin-top: 2rem;">
-        <div class="tarjeta">
-          <h2>🧠 Regulación y manejo emocional</h2>
-          <p>Incluye manejo del estrés, ansiedad, frustración y otras emociones que interfieren en tu vida diaria. Utilizo herramientas de Terapia Cognitivo Conductual para que recuperes el equilibrio.</p>
+        <div class="servicios-grid">
+          <div class="servicio-card">
+            <div class="servicio-icono">🧠</div>
+            <h3>Regulación y manejo emocional</h3>
+            <p>Incluye manejo del estrés, ansiedad, frustración y otras emociones que interfieren en tu vida diaria. Utilizo herramientas de Terapia Cognitivo Conductual para que recuperes el equilibrio.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">🛡️</div>
+            <h3>Estrategias de afrontamiento</h3>
+            <p>Te ayudo a identificar y fortalecer tus recursos internos para afrontar situaciones difíciles, desde una perspectiva de derechos humanos y validación emocional.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">⭐</div>
+            <h3>Toma de decisiones y autoestima</h3>
+            <p>Un espacio para reconectar con tu valor personal y tomar decisiones alineadas a lo que realmente quieres, integrando la perspectiva de género y la crianza positiva.</p>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icono">📚</div>
+            <h3>Dificultades escolares y de aprendizaje</h3>
+            <p>Trabajo con niñas, niños y adolescentes que enfrentan retos académicos, utilizando terapia de juego, psicodiagnóstico infantil y estrategias de aprendizaje personalizadas.</p>
+          </div>
         </div>
-        <div class="tarjeta">
-          <h2>🛡️ Estrategias de afrontamiento</h2>
-          <p>Te ayudo a identificar y fortalecer tus recursos internos para afrontar situaciones difíciles, desde una perspectiva de derechos humanos y validación emocional.</p>
-        </div>
-        <div class="tarjeta">
-          <h2>⭐ Toma de decisiones y autoestima</h2>
-          <p>Un espacio para reconectar con tu valor personal y tomar decisiones alineadas a lo que realmente quieres, integrando la perspectiva de género y la crianza positiva.</p>
-        </div>
-        <div class="tarjeta">
-          <h2>📚 Dificultades escolares y de aprendizaje</h2>
-          <p>Trabajo con niñas, niños y adolescentes que enfrentan retos académicos, utilizando terapia de juego, psicodiagnóstico infantil y estrategias de aprendizaje personalizadas.</p>
+
+        <div class="text-center" style="margin-top: var(--sp-10);">
+          <p class="text-suave" style="margin-bottom: var(--sp-4);">Modalidad: presencial en Ciudad de México (Tláhuac, Los Olivos) y en línea para todo el país.</p>
+          <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20sesión%20de%20terapia"
+             class="boton boton-primario boton-lg"
+             target="_blank"
+             rel="noopener">
+            💬 Agenda tu sesión
+          </a>
         </div>
       </div>
-
-      <p style="margin-top: 3rem; font-weight: bold;">Modalidad: presencial en Ciudad de México (Tláhuac, Los Olivos) y en línea para todo el país.</p>
-
-      <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
-         class="boton boton-primario"
-         target="_blank"
-         rel="noopener">
-        💬 Agenda tu sesión
-      </a>
     </section>
   </main>
 
   <footer>
-    <div class="contenedor footer-grid">
-      <div>
-        <p>&copy; 2026 Psic. Emma Martínez</p>
-        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 Ciudad de México, CDMX</p>
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-logo">Psic. Emma Martínez</p>
+          <p class="footer-descripcion">Psicóloga con enfoque psicoeducativo y perspectiva de género.</p>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Servicios</p>
+          <ul class="footer-lista">
+            <li><a href="servicios.html">Regulación emocional</a></li>
+            <li><a href="servicios.html">Autoestima</a></li>
+            <li><a href="servicios.html">Aprendizaje</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-titulo-col">Contacto</p>
+          <ul class="footer-lista">
+            <li><a href="https://wa.me/5215561783940">WhatsApp</a></li>
+            <li><a href="tel:5561783940">55 6178 3940</a></li>
+            <li><a href="https://www.instagram.com/psicologa.emma">Instagram</a></li>
+            <li><a href="https://www.facebook.com/psic.edu.emma">Facebook</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <p>
-          <a href="tel:5561783940">📞 55 6178 3940</a> |
-          <a href="https://wa.me/5215561783940">WhatsApp</a>
-        </p>
-        <p>
-          <a href="https://www.instagram.com/psicologa.emma" target="_blank" rel="noopener">Instagram</a> |
-          <a href="https://www.facebook.com/psic.edu.emma" target="_blank" rel="noopener">Facebook</a>
-        </p>
+      <div class="footer-divider"></div>
+      <div class="footer-base">
+        <p>© 2026 Psic. Emma Martínez — Todos los derechos reservados</p>
+        <p>Av. Tláhuac 5295, Los Olivos, Tláhuac, 13210 CDMX</p>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20deseo%20agendar%20una%20cita"
+  <a href="https://wa.me/5215561783940?text=Hola%20Psic.%20Emma%2C%20quisiera%20más%20información%20sobre%20sus%20servicios"
      class="whatsapp-flotante"
      target="_blank"
      rel="noopener"
